@@ -53,6 +53,11 @@ export default function Home() {
   }
 
   const handleAccount = () => {
+    setData({
+      name: "",
+      email: "",
+      idade: ""
+    })
     setAccount(true)
     setPersonal(false)
   }
